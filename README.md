@@ -8,8 +8,7 @@
 <h1 align="center">🚀 Sunit Mohan – Developer Portfolio</h1>
 
 <p align="center">
-  <strong>Product-Focused Software Development Engineer specializing in scalable frontend systems.</strong><br>
-  Currently building high-traffic, reliable experiences for millions of users.
+  <strong>AI first Software Engineer</strong> enhancing high-traffic platforms like HDFC SmartBuy with UI/UX revamps, legacy flow stabilization, and scalable production experiences.
 </p>
 
 <p align="center">
