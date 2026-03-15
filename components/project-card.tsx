@@ -37,7 +37,9 @@ export function ProjectCard() {
               
               <div className="flex flex-wrap gap-2 mt-auto text-sm font-mono text-cyan-700 dark:text-neon-blue/80">
                 {project.tech.map((t, i) => (
-                  <span key={i} className="px-2 py-1 glass-card rounded-md">{t}</span>
+                  <span key={i} className="px-2 py-1 glass-card rounded-md hover:text-neon-blue hover:border-neon-blue hover:shadow-[0_0_10px_rgba(0,240,255,0.4)] transition-all cursor-default">
+                    {t}
+                  </span>
                 ))}
               </div>
             </motion.div>
