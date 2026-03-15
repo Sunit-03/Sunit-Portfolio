@@ -17,7 +17,7 @@ export function Footer() {
           <a href="https://github.com/Sunit-03" target="blank" className="text-muted-foreground hover:text-neon-purple transition-colors">
             <Github size={20} />
           </a>
-          <a href="sunitmohan030303@gmail.com" className="text-muted-foreground hover:text-neon-blue transition-colors">
+          <a href="mailto:sunitmohan030303@gmail.com" className="text-muted-foreground hover:text-neon-blue transition-colors">
             <Mail size={20} />
           </a>
         </div>

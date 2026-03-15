@@ -35,14 +35,16 @@ export const portfolioData = {
       title: "InterviewAI",
       description: "AI powered interview preparation platform offering personalized question generation.",
       tech: ["React", "Mongo", "GenAI", "Tailwind", "Node.js", "JavaScript", "Gemini 2.5"],
-      link: "https://interview-ai-frontend-sooty.vercel.app/    "
+      link: "https://interview-ai-frontend-sooty.vercel.app/    ",
+      githubLink: "https://github.com/Sunit-03/InterviewAI-Frontend"
     },
     {
       id: 2,    
       title: "TravelX",
       description: "Smart AI itinerary planner providing personalized travel recommendations.",
       tech: ["React + Vite", "Tailwind", "GenAI", "JavaScript", "Google Maps APIs", "Firebase", "Google Cloud"],
-      link: "https://travel-x-peach.vercel.app/"
+      link: "https://travel-x-peach.vercel.app/",
+      githubLink: "https://github.com/Sunit-03/travelX-AI"
     }
   ],
   skills: [

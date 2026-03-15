@@ -30,8 +30,10 @@ export function Hero() {
                 </motion.p>
 
                 <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="gap-4 flex">
-                    <Button className="bg-neon-blue text-black hover:bg-neon-blue/80 hover:shadow-[0_0_20px_rgba(0,240,255,0.6)] rounded-full px-8 py-6 text-lg transition-all border border-transparent">
-                        View Projects <ArrowRight className="ml-2 w-5 h-5" />
+                    <Button asChild className="bg-neon-blue text-black hover:bg-neon-blue/80 hover:shadow-[0_0_20px_rgba(0,240,255,0.6)] rounded-full px-8 py-6 text-lg transition-all border border-transparent">
+                        <a href="#projects">
+                            View Projects <ArrowRight className="ml-2 w-5 h-5" />
+                        </a>
                     </Button>
                 </motion.div>
             </div>

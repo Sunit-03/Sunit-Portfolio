@@ -7,7 +7,7 @@ export function SkillsGrid() {
     <section id="skills" className="py-24 container px-4 md:px-6 max-w-4xl mx-auto text-center">
       <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
         <h2 className="text-3xl md:text-4xl font-bold mb-12 flex items-center justify-center gap-4">
-          <span className="text-neon-blue">04.</span> Core Tech Stack
+          <span className="text-neon-blue">04.</span> Core Skills
         </h2>
         
         <div className="flex flex-wrap justify-center gap-4 md:gap-6">

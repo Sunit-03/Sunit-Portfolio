@@ -28,10 +28,14 @@ export function ProjectCard() {
                 </a>
               </div>
               
-              <h3 className="text-2xl font-bold mb-3 hover:text-neon-blue cursor-pointer transition-colors">{project.title}</h3>
+              <h3 className="text-2xl font-bold mb-3 hover:text-neon-blue cursor-pointer transition-colors">
+                <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                  {project.title}
+                </a>
+              </h3>
               <p className="text-muted-foreground flex-grow mb-6">{project.description}</p>
               
-              <div className="flex flex-wrap gap-2 mt-auto text-sm font-mono text-neon-blue/80">
+              <div className="flex flex-wrap gap-2 mt-auto text-sm font-mono text-cyan-700 dark:text-neon-blue/80">
                 {project.tech.map((t, i) => (
                   <span key={i} className="px-2 py-1 glass-card rounded-md">{t}</span>
                 ))}

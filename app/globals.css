@@ -42,7 +42,7 @@
 }
 
 @utility glass-card {
-  @apply bg-white/5 dark:bg-black/40 backdrop-blur-md border border-white/10 dark:border-white/10 shadow-xl;
+  @apply bg-black/5 dark:bg-white/5 backdrop-blur-md border border-black/10 dark:border-white/10 shadow-xl;
 }
 
 @utility neon-border-hover {
