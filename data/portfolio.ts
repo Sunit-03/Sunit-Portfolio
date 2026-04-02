@@ -29,6 +29,22 @@ export const portfolioData = {
       ]
     }
   ],
+  education:[
+    {
+      id: 1,
+      institution: "USICT, Guru Gobind Singh Indraprastha University",
+      degree: "Bachelor of Technology in Computer Science and Engineering",
+      duration: "2021 – 2025",
+      grade: "8/10 CGPA"
+    },
+    {
+      id: 2,
+      institution: "The Air Force School, Subroto Park",
+      degree: "Senior Secondary Education (12th)",
+      duration: "2019 – 2021",
+      grade: "95.6%"
+    }
+  ],
   projects: [
     {
       id: 1,
@@ -48,7 +64,7 @@ export const portfolioData = {
     }
   ],
   skills: [
-    "React", "Next.js", "TypeScript", "JavaScript", "C/C++", "Python", "Postman",
+    "React", "Next.js", "TypeScript", "JavaScript", "C/C++", "Python", "Postman", "Claude Code", "Antigravity", "Cursor",
     "Node.js", "Java", "TailwindCSS", "Git/GitHub", "Rest APIs", "MongoDB", "WABA", "CRM systems"
   ]
 };
