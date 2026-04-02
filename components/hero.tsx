@@ -26,13 +26,13 @@ export function Hero() {
                     className="text-lg md:text-2xl text-muted-foreground max-w-2xl mb-8"
                     initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
                 >
-                    AI first Software Engineer enhancing high-traffic platforms like HDFC SmartBuy with UI/UX revamps, legacy flow stabilization, and scalable production experiences.
+                    AI first Software Engineer enhancing high-traffic platforms with userbase in <span className="font-bold">millions</span> and building scalable production experiences.
                 </motion.p>
 
                 <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="gap-4 flex">
                     <Button asChild className="bg-neon-blue text-black hover:bg-neon-blue/80 hover:shadow-[0_0_20px_rgba(0,240,255,0.6)] rounded-full px-8 py-6 text-lg transition-all border border-transparent">
-                        <a href="#projects">
-                            View Projects <ArrowRight className="ml-2 w-5 h-5" />
+                        <a href="#experience" className="flex items-center">
+                            View Experience <ArrowRight className="ml-2 w-5 h-5" />
                         </a>
                     </Button>
                 </motion.div>

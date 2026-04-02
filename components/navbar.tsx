@@ -4,7 +4,7 @@ import { ThemeToggle } from "./theme-toggle"
 import Link from "next/link"
 
 export function Navbar() {
-  const links = ["About", "Experience", "Projects", "Skills", "Contact"]
+  const links = ["About", "Experience", "Education", "Projects", "Skills", "Contact"]
   
   return (
     <motion.header 
