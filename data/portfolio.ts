@@ -64,7 +64,7 @@ export const portfolioData = {
     }
   ],
   skills: [
-    "React", "Next.js", "TypeScript", "JavaScript", "C/C++", "Python", "Postman", "Claude Code", "Antigravity", "Cursor",
-    "Node.js", "Java", "TailwindCSS", "Git/GitHub", "Rest APIs", "MongoDB", "WABA", "CRM systems"
+    "React", "Next.js", "TypeScript", "JavaScript", "Angular", "Rest APIs", "C/C++", "Python", "Postman", "Claude Code", "Antigravity", "Cursor",
+    "Node.js", "Java", "TailwindCSS", "Git/GitHub", "MongoDB", "WABA", "CRM systems"
   ]
 };
