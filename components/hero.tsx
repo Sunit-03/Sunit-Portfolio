@@ -26,7 +26,7 @@ export function Hero() {
                     className="text-lg md:text-2xl text-muted-foreground max-w-2xl mb-8"
                     initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
                 >
-                    AI first Software Engineer enhancing high-traffic platforms with userbase in <span className="font-bold">millions</span> and building scalable production experiences.
+                    Backend-leaning full-stack engineer building production commerce platforms - powering <span className="font-bold">INR 50 Cr</span> in monthly sales and serving <span className="font-bold">8.5M+</span> monthly users.
                 </motion.p>
 
                 <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="gap-4 flex">

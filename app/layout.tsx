@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"], display: 'swap' });
 
 export const metadata: Metadata = {
   title: "Sunit Mohan | Software Engineer",
-  description: "Portfolio of Sunit Mohan, a product-focused frontend architect and engineer.",
+  description: "Portfolio of Sunit Mohan, a backend-leaning full-stack software engineer (Node.js, TypeScript, PostgreSQL, AWS).",
 };
 
 export default function RootLayout({
