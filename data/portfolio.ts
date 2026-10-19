@@ -26,9 +26,12 @@ export const portfolioData = {
       role: "Software Development Engineer",
       duration: "Dec 2024 – May 2025",
       achievements: [
-        "Owned end-to-end frontend delivery of an inventory and procurement system for the Indian Institute of Astrophysics (IIA), Bengaluru, for 20–50 staff, acting as the primary bridge between the institute, product managers and engineering.",
-        "Built 4 core transactional workflows (indent, tender, sales order, purchase) on backend REST APIs, plus a multi-stage approval queue with sequential routing and role-based page access.",
-        "Created a reusable React + Ant Design + TailwindCSS component library, cutting new-module build time by ~30–40%."
+        "Owned end-to-end frontend product delivery for an inventory and procurement management system built for the Indian Institute of Astrophysics (IIA), Bangalore, adopted by 20-50 institutional staff.",
+        "Designed and built 4 core transactional workflows (indent, tender, sales order, purchase forms), each integrated with backend REST APIs for end-to-end procurement processing.",
+        "Architected a multi-stage approval queue system enforcing sequential workflow routing across the institutional approval hierarchy.",
+        "Implemented frontend-level RBAC to control page and feature access across different institutional staff roles.",
+        "Built a reusable component library (React, Ant Design, TailwindCSS), cutting development time for new modules by ~30-40% and improving UI consistency.",
+        "Led client requirement discussions and stakeholder communication end-to-end, acting as the primary bridge between the institute, product managers, and the engineering team."
       ]
     }
   ],
