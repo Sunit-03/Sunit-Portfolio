@@ -11,7 +11,7 @@ export function Hero() {
             <div className="container px-4 md:px-6 relative z-10 text-center flex flex-col items-center">
                 <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }}>
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-card border-neon-purple/30 text-sm mb-6 text-neon-purple">
-                        <Terminal size={14} /> <span>System Online</span>
+                        <Terminal size={14} /> <span>Agents Online</span>
                     </div>
                 </motion.div>
 
@@ -26,7 +26,7 @@ export function Hero() {
                     className="text-lg md:text-2xl text-muted-foreground max-w-2xl mb-8"
                     initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
                 >
-                    Backend-leaning full-stack engineer building production commerce platforms - powering <span className="font-bold">INR 50 Cr</span> in monthly sales and serving <span className="font-bold">8.5M+</span> monthly users.
+                    AI-native full-stack engineer shipping production systems with coding agents in the loop - powering <span className="font-bold">INR 50 Cr</span> in monthly sales and serving <span className="font-bold">8.5M+</span> monthly users.
                 </motion.p>
 
                 <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="gap-4 flex">

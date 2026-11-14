@@ -11,7 +11,7 @@ export function Footer() {
         </p>
         
         <div className="flex items-center gap-4">
-          <a href="https://www.linkedin.com/in/sunit-mohan-4809a2229/" target="blank" className="text-muted-foreground hover:text-neon-blue transition-colors">
+          <a href="https://www.linkedin.com/in/sunit-mohan/" target="blank" className="text-muted-foreground hover:text-neon-blue transition-colors">
             <Linkedin size={20} />
           </a>
           <a href="https://github.com/Sunit-03" target="blank" className="text-muted-foreground hover:text-neon-purple transition-colors">

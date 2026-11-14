@@ -8,8 +8,8 @@ import { Footer } from "@/components/footer";
 const inter = Inter({ subsets: ["latin"], display: 'swap' });
 
 export const metadata: Metadata = {
-  title: "Sunit Mohan | Software Engineer",
-  description: "Portfolio of Sunit Mohan, a backend-leaning full-stack software engineer (Node.js, TypeScript, PostgreSQL, AWS).",
+  title: "Sunit Mohan | AI-Native Software Engineer",
+  description: "Portfolio of Sunit Mohan, an AI-native full-stack software engineer building production systems with agentic workflows (Claude Code, LLMs, Node.js, TypeScript, PostgreSQL, AWS).",
 };
 
 export default function RootLayout({
