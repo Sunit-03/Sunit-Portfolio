@@ -104,7 +104,7 @@ This portfolio itself represents my aesthetic and architectural standards:
 ## 📬 Let's Connect
 
 - 📧 **Email:** [sunitmohan030303@gmail.com](mailto:sunitmohan030303@gmail.com)
-- 💼 **LinkedIn:** [Sunit Mohan](https://www.linkedin.com/in/sunit-mohan-4809a2229/)
+- 💼 **LinkedIn:** [Sunit Mohan](https://www.linkedin.com/in/sunit-mohan/)
 - 🌐 **Portfolio:** [sunit-portfolio-nine.vercel.app](https://sunit-portfolio-nine.vercel.app/)
 
 <p align="center">

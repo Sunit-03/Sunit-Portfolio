@@ -1,37 +1,35 @@
 export const portfolioData = {
-  about: "Backend-leaning full-stack Software Engineer (~1.5 years) building production commerce platforms with Node.js, TypeScript, Medusa.js, PostgreSQL and React. Building the marketplace platform behind ICICI iRewards (INR 50 Cr monthly sales, ~5,500 orders/day) and led a legacy-to-Next.js migration on HDFC SmartBuy (8.5M+ MAU). I own schema and API design, auth and RBAC, job queues, Docker/AWS deployment and production debugging - and ship faster with agentic AI tools (Claude Code, GitHub Copilot, OpenAI Codex, Google Antigravity).",
+  about: "AI-native full-stack Software Engineer (~1.5 years) who treats coding agents as part of the engineering team. I designed an AI-augmented SDLC around Claude Code - agents draft each stage from workflow docs to specs, implementation and tests, while I own the architecture, review and final call - and used it to ship a procurement ERP (ERPNext) and a support CRM as the sole engineer. Day to day I'm a core engineer on the Medusa.js marketplace behind ICICI iRewards (~INR 50 Cr monthly sales, ~5,500 orders/day), owning schema and API design, RBAC, job queues and AWS deployment. On the side I build LLM-powered products: agentic semantic search with LangGraph, Ollama and pgvector, and Gemini-driven interview prep.",
   experience: [
     {
       id: 1,
-      company: "Reward360",
+      company: "Reward360 Global",
       role: "Software Development Engineer (Full-Stack)",
       duration: "Nov 2025 – Present",
       achievements: [
-        "ICICI iRewards: Architecting the Medusa.js (Node.js, TypeScript, PostgreSQL) platform that is the CMS and product source of truth for ICICI iRewards, the points-redemption storefront open to all ICICI credit-card holders.",
-        "Since go-live in Aug 2026, monthly sales grew from INR 30–35 Cr to INR 50 Cr in the first full month (INR 35 Cr vouchers, INR 15 Cr physical products), a 40%+ uplift; the platform averages ~5,500 orders/day and handled a record INR 2.01 Cr GMV day (INR 57.59 L physical).",
-        "Designed database schemas and RESTful APIs for a 3,000+ product, multi-variant catalog across 8+ admin and catalog modules, integrated with the ERP via webhook-driven BullMQ/Redis job queues; analyzed queue load and data consistency across Redis and PostgreSQL.",
-        "Designed a database-backed 3-tier RBAC system (super admin, catalog admin, catalog viewer) with custom React hooks and permission-gated components for 30+ admin users; built Azure AD SSO (OAuth 2.0/OIDC via MSAL) with Conditional Access MFA, plus 2FA for privileged roles.",
-        "Own backend deployment on AWS EC2 and Docker/ECS; diagnosed recurring ECS out-of-memory failures, tracing root causes to a missing Docker HEALTHCHECK, no graceful shutdown and migrations running on every container start.",
-        "Analyzed a 90-threat STRIDE threat model, triaging top risks (SQL injection, TLS/cookie config, information disclosure); resolved critical defects ahead of UAT.",
-        "Building a custom ERPNext (Frappe) procurement module from the company's ERP workflow.",
-        "HDFC SmartBuy (8.5M+ MAU, 40M+ eligible users): Led the frontend migration of a 5+ year legacy AngularJS codebase to Next.js (React), rebuilding 15+ modules and refactoring 20+ components into a reusable TypeScript component library.",
-        "Revamped the multicity flight booking journey from sector-based to bundled listing and booking, eliminating fare discrepancies with partner (EMT) inventory on a revenue-critical flow.",
-        "Resolved 50+ production issues across web and mobile, including same-day hotel bookings and web/mobile flight-view parity.",
-        "Customer lifecycle (CLCM) platform: Built a centralized WhatsApp Business (WABA) automation system end-to-end in Node.js, scoped for every bank client."
+        "ICICI iRewards: Core engineer on the Medusa.js v2 (Node.js, TypeScript, PostgreSQL) CMS powering ICICI iRewards 2.0, white-labeled across bank clients; live since Aug 2026 at ~5,500 orders/day, with a record INR 2.01 Cr GMV day.",
+        "iRewards 1.0 (INR 30–35 Cr/month) hid in-stock products and needed weeks of dev, design and QA for every campaign. With my team, made Medusa the product source of truth, added AWS OpenSearch and built a no-code drag-and-drop page builder, cutting campaign launches from weeks to ~10 minutes; monthly sales rose to ~INR 50 Cr (40%+ uplift).",
+        "Designed schemas and REST APIs for a 4,000+ product multi-variant catalog, and a webhook-driven BullMQ/Redis queue that syncs every product with the PHP-based ERP, whether created manually, bulk-imported or migrated from iRewards 1.0.",
+        "Building Points + Cash redemption, projected to take iRewards revenue past INR 80 Cr; built a product grouper that consolidates legacy single-SKU ERP items into master products with variants.",
+        "Designed a database-backed 4-tier RBAC system with custom React hooks and permission-gated components for 30+ admin users; built Azure AD SSO (OAuth 2.0/OIDC via MSAL) with Conditional Access MFA.",
+        "Own backend deployment on AWS EC2 and Docker/ECS; traced recurring ECS out-of-memory failures to migrations running on every container start, plus a missing HEALTHCHECK and graceful shutdown.",
+        "Built the full product catalog for ICICI's ultra-HNI 1838 credit card launch and migrated its program products from staging to production under a tight go-live deadline.",
+        "Internal platforms (sole engineer, AI-native delivery): Designed an AI-augmented SDLC around Claude Code that generates a prompt for each stage - workflow docs to specs, implementation and testing - which I review and refine before execution; used it to ship two internal platforms solo.",
+        "Built a custom procurement ERP on ERPNext (Frappe, Python) from the company's ERP workflow documentation, modelling each domain as workflows and DocTypes.",
+        "Building an agent-facing support CRM on Escalated (AdonisJS, Vue 3, PostgreSQL) with role-based ticket assignment and verified customer/order lookup from the Medusa platform.",
+        "HDFC SmartBuy (8.5M+ MAU, 40M+ eligible users): Led the frontend migration of a 5+ year legacy AngularJS codebase to Next.js, rebuilding 15+ modules and refactoring 20+ components into a reusable TypeScript component library.",
+        "Revamped the multicity flight journey from sector-based to bundled listing and booking, eliminating fare discrepancies with partner (EMT) inventory on a revenue-critical flow; resolved 50+ production issues across web and mobile."
       ]
     },
     {
       id: 2,
       company: "DKG Labs",
-      role: "Software Development Engineer",
+      role: "Software Development Engineer (Frontend)",
       duration: "Dec 2024 – May 2025",
       achievements: [
-        "Owned end-to-end frontend product delivery for an inventory and procurement management system built for the Indian Institute of Astrophysics (IIA), Bangalore, adopted by 20-50 institutional staff.",
-        "Designed and built 4 core transactional workflows (indent, tender, sales order, purchase forms), each integrated with backend REST APIs for end-to-end procurement processing.",
-        "Architected a multi-stage approval queue system enforcing sequential workflow routing across the institutional approval hierarchy.",
-        "Implemented frontend-level RBAC to control page and feature access across different institutional staff roles.",
-        "Built a reusable component library (React, Ant Design, TailwindCSS), cutting development time for new modules by ~30-40% and improving UI consistency.",
-        "Led client requirement discussions and stakeholder communication end-to-end, acting as the primary bridge between the institute, product managers, and the engineering team."
+        "Owned end-to-end frontend delivery of an inventory and procurement system for the Indian Institute of Astrophysics (IIA), acting as the bridge between the institute, PMs and engineering.",
+        "Built 4 core transactional workflows (indent, tender, sales order, purchase) on REST APIs, plus a multi-stage approval queue with sequential routing and role-based page access.",
+        "Created a reusable React + Ant Design + TailwindCSS component library, cutting new-module build time by ~30–40%."
       ]
     }
   ],
@@ -41,7 +39,7 @@ export const portfolioData = {
       institution: "USICT, Guru Gobind Singh Indraprastha University",
       degree: "Bachelor of Technology in Computer Science and Engineering",
       duration: "2021 – 2025",
-      grade: "8/10 CGPA"
+      grade: "8.0/10 GPA"
     },
     {
       id: 2,
@@ -54,27 +52,29 @@ export const portfolioData = {
   projects: [
     {
       id: 1,
+      title: "SecureTasks AI",
+      description: "Jira/Linear-style multi-tenant task platform with auth, workspaces, projects, tasks, comments, notifications and audit logging; Next.js on Vercel, Express API on Render, PostgreSQL on Neon via Prisma. In progress: an AI microservice (Ollama, LangGraph, pgvector) for semantic search over project data.",
+      tech: ["Next.js", "Express.js", "TypeScript", "PostgreSQL", "Prisma", "Neon", "LangGraph", "Ollama", "pgvector"],
+      link: "https://securetasks-ai.vercel.app/",
+      githubLink: "https://github.com/Sunit-03/SecureTasks"
+    },
+    {
+      id: 2,
       title: "InterviewAI",
       description: "MERN interview-prep platform generating 10+ tailored interview questions from a user's role, skills and experience via Gemini 2.5 Pro, with a regenerable \"Explain\" mode, JWT auth and a mobile-first UI (Lighthouse accessibility >90, best practices 100).",
       tech: ["React", "MongoDB", "Express.js", "Node.js", "Gemini 2.5 Pro", "JWT", "Tailwind"],
       link: "https://interview-ai-frontend-sooty.vercel.app/",
       githubLink: "https://github.com/Sunit-03/InterviewAI-Frontend"
     },
-    {
-      id: 2,
-      title: "TravelX",
-      description: "AI itinerary planner generating budget-based day-by-day itineraries and top-3 hotels in under 10 seconds, upgraded from Gemini 1.5 to Gemini 3.6 Flash; integrates Google Maps, Places and Images APIs with Google OAuth (Lighthouse performance >90).",
-      tech: ["React + Vite", "Firebase", "Gemini 3.6 Flash", "Google Maps APIs", "Google OAuth", "Tailwind"],
-      link: "https://travel-x-peach.vercel.app/",
-      githubLink: "https://github.com/Sunit-03/travelX-AI"
-    }
   ],
   skills: [
-    "TypeScript", "JavaScript", "Python", "Node.js", "Express.js", "Medusa.js (v2)", "RESTful API Design",
-    "Database Schema Design", "BullMQ", "ERPNext (Frappe)", "PostgreSQL", "MongoDB", "Redis", "Firebase",
-    "AWS (EC2, ECS)", "Docker", "CI/CD", "Git/GitHub", "Postman",
-    "OAuth 2.0 / OIDC", "Azure AD SSO (MSAL)", "JWT", "2FA", "RBAC", "Threat Modeling (STRIDE)",
-    "React", "Next.js", "Redux", "TailwindCSS", "Ant Design",
-    "Multi-model LLM Integration", "Prompt Engineering", "Claude Code", "GitHub Copilot", "OpenAI Codex", "Google Antigravity"
+    "AI-Augmented SDLC", "Agentic Coding", "Claude Code", "GitHub Copilot", "OpenAI Codex",
+    "LLM Integration (Claude, GPT, Gemini)", "LangGraph", "Ollama", "pgvector", "Semantic Search",
+    "TypeScript", "JavaScript (ES6+)", "Python", "SQL", "HTML5", "CSS3",
+    "Node.js", "Express.js", "Medusa.js (v2)", "AdonisJS", "ERPNext (Frappe)", "REST API Design", "Schema Design", "BullMQ", "Prisma",
+    "PostgreSQL", "Redis", "MongoDB", "OpenSearch", "Firebase",
+    "AWS (EC2, ECS)", "Docker", "CI/CD", "Vercel", "Render", "Linux", "Git", "Postman", "Jira", "Agile",
+    "OAuth 2.0", "OIDC", "Azure AD SSO (MSAL)", "JWT", "2FA", "RBAC", "API Rate Limiting",
+    "React.js", "Next.js", "Vue 3", "Redux", "Context API", "React Hook Form", "Zod", "TailwindCSS", "Ant Design", "AngularJS"
   ]
 };

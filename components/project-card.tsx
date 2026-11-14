@@ -23,15 +23,21 @@ export function ProjectCard() {
               
               <div className="flex justify-between items-center mb-6">
                 <FolderGit2 className="w-10 h-10 text-neon-purple" />
-                <a href={project.link} target="blank" className="hover:text-neon-blue transition-colors">
-                  <ExternalLink size={24} />
-                </a>
+                {project.link && (
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" aria-label={`${project.title} live demo`} className="hover:text-neon-blue transition-colors">
+                    <ExternalLink size={24} />
+                  </a>
+                )}
               </div>
               
-              <h3 className="text-2xl font-bold mb-3 hover:text-neon-blue cursor-pointer transition-colors">
-                <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                  {project.title}
-                </a>
+              <h3 className="text-2xl font-bold mb-3 hover:text-neon-blue transition-colors">
+                {project.githubLink ? (
+                  <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                    {project.title}
+                  </a>
+                ) : (
+                  project.title
+                )}
               </h3>
               <p className="text-muted-foreground flex-grow mb-6">{project.description}</p>
               
